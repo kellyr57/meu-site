@@ -1,0 +1,41 @@
+body{
+    color: black;
+    background-color: rgb(185, 198, 219);
+}
+h1{
+    border: dotted 5px;
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-wideth:600px){
+    p(
+        font-size: 5xp;
+    )
+    img{
+        display: none;
+    }
+}
+
+@media only screen and (min-wideth:600px){
+    p(
+        font-size: 10xp;
+    )
+}
+@media only screen and (min-wideth:728px){
+    p(
+        font-size: 15xp;
+    )
+}
+@media only screen and (min-wideth:992px){
+    p(
+        font-size: 20px;
+    )
+}
+@media only screen and (min-wideth:1200px){
+    p(
+        font-size: 25px;
+    )
+}
